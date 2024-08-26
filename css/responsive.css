@@ -1,0 +1,302 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li {
+        margin-left: 19px;
+    }
+    .banner-title h1 {
+        font-size: 45px;
+    }
+    .banner-content {
+        height: 70vh;
+    }
+    .info-title h4 span {
+        font-size: 20px;
+    }
+    .info-title h4 i {
+        color: #fff;
+        font-size: 26px;
+        height: 50px;
+        width: 50px;
+        line-height: 48px;
+    }
+    .popular-single-title h4 i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        margin-right: 8px;
+    }
+    .list-icon i {
+        width: 25px;
+    }
+    .list ul li {
+        font-size: 15px;
+    }
+    .upcoming-events-bg::after {
+        right: 255px;
+    }
+    .video-bg-left {
+        width: 400px;
+    }
+    .video-icon {
+        top: 225px;
+        left: 125px;
+    }
+    .place-title h2 {
+        font-size: 30px;
+    }
+    .service-place-icon h4 span {
+        margin-left: 9px;
+        font-size: 19px;
+    }
+    .service-place-text {
+        margin-left: 28px;
+    }
+    .students-title h5 {
+        font-size: 17px;
+    }
+    .subscribe-btn {
+        font-size: 15px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-top-menu .header-top-contact ul li {
+        margin-left: 28px;
+    }
+    .header-top-contact ul li a {
+        font-size: 15px;
+    }
+    .main-menu ul li {
+        margin-left: 0px;
+        margin-right: 26px;
+    }
+    .main-menu ul li:last-child{
+        margin-right: 0px;
+    }
+    .logo {
+        text-align: center;
+    }
+    .main-menu {
+        text-align: left;
+    }
+    .banner-title h1 {
+        font-size: 35px;
+    }
+    .banner-text p {
+        font-size: 13px;
+    }
+    .banner-content {
+        height: 70vh;
+    }
+    .info-title h4 i {
+        font-size: 19px;
+        height: 35px;
+        width: 35px;
+        line-height: 31px;
+    }
+    .info-title h4 span {
+        font-size: 14px;
+        padding-left: 7px;
+    }
+    .info-text p {
+        margin-top: 0px;
+    }
+    .single-benefits-title h5 span {
+        font-size: 25px;
+    }
+    .counter-box p {
+        font-size: 13px;
+    }
+    .counter-box span.counter-number {
+        font-size: 25px;
+    }
+    .counter-k {
+        font-size: 25px;
+    }
+    .event-right {
+        margin-top: 25px;
+    }
+
+    /* ========= video ========= */
+    .video-bg-left {
+        width: 100%;
+        height: 285px;
+    }
+    .video-service {
+        display: inline-block;
+    }
+    .video-service {
+        height: 200px;
+    }
+    .video-icon {
+        top: 58px;
+        left: 280px;
+    }
+    .best-place {
+        margin-top: 35px;
+    }
+
+    /* ========= video ========= */
+
+
+    .subscribe-content {
+        margin-bottom: 30px;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .header-top-contact {
+        text-align: center;
+    }
+    .banner-area {
+        height: 770px;
+    }
+    .header-top-contact ul li a {
+        font-size: 12px;
+    }
+    .header-top-contact ul li {
+        margin-right: 19px;
+    }
+    .header-top-contact ul li:last-child {
+        margin-right: 0px;
+    }
+    .header-top-menu {
+        text-align: center;
+    }
+    .header-top-menu .header-top-contact ul li {
+        margin-right: 15px;
+        margin-left: 0px;
+    }
+    .logo {
+        text-align: left;
+    }
+    .banner-title h1 {
+        font-size: 32px;
+    }
+    .info-area {
+        transform: translateY(0%);
+    }
+    .info-area:hover {
+        transform: translateY(0px);
+    }
+    .info-title h4 span {
+        font-size: 19px;
+    }
+    .info-title h4 i {
+        font-size: 25px;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+    }
+    .about-title h2 {
+        font-size: 28px;
+    }
+    .about-picture {
+        margin-top: 35px;
+    }
+    .subject-title h2 {
+        font-size: 25px;
+    }
+    .popular-single-title h4 i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 22px;
+        margin-right: 5px;
+    }
+    .achievements-title h2 {
+        font-size: 25px;
+    }
+    .counter-box {
+        margin-bottom: 45px;
+    }
+    .event-center {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .text-events h4 {
+        font-size: 17px;
+    }
+    .list ul li {
+        font-size: 14px;
+    }
+
+    /* ========= video icon ========= */
+    .video-bg-left {
+        width: 100%;
+        height: 300px;
+    }
+    .video-icon {
+        position: absolute;
+        top: 14px;
+        left: 100px;
+        text-align: center;
+    }
+    .best-place {
+        margin-top: 245px;
+    }
+    .place-title h2 {
+        font-size: 25px;
+    }
+    .service-place-icon h4 span {
+        font-size: 20px;
+    }
+    /* ========= video icon ========= */
+
+    .students-items .student-picture-title img {
+        width: 45px;
+        height: 45px;
+    }
+    .students-title h5 {
+        font-size: 18px;
+    }
+    .mailing-service {
+        padding: 20px 20px;
+    }
+    .subscribe-btn {
+        width: 50%;
+        padding: 10px 20px;
+        border-radius: 5px;
+        left: 0;
+        margin-top: 11px;
+    }
+    .subscribe-input input {
+        padding: 25px 15px;
+        width: 240px;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
+    .aubscribe-area {
+        transform: translateY(0%);
+    }
+    .footer-top {
+        padding-top: 0px;
+    }
+    .footer-address {
+        padding-right: 0px;
+    }
+    .copy p {
+        font-size: 14px;
+    }
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
